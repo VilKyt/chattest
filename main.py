@@ -185,7 +185,7 @@ elif provider == "Google":
         st.stop()
 
 elif provider == "OSS LLM":
-    model_name = "gemma-3b-it"
+    model_name = "psycollm"
     temperature = st.sidebar.slider("Temperature", 0.0, 1.0, 0.7, 0.01, key="local_gemma_temp")
     top_p = st.sidebar.slider("Top P", 0.0, 1.0, 0.95, 0.01, key="local_gemma_top_p")
     max_tokens = st.sidebar.slider("Max Tokens", 50, 2000, 300, 10, key="local_gemma_max_tokens")
@@ -196,7 +196,7 @@ elif provider == "OSS LLM":
             temperature=temperature,
             max_tokens=max_tokens,
             top_p=top_p,
-            openai_api_base="https://85aa-213-197-152-65.ngrok-free.app/v1",
+            openai_api_base="https://e498-213-197-152-65.ngrok-free.app/v1",
             openai_api_key="dummy_key"
         )
         st.sidebar.caption(f"Initialized OSS LLM")
