@@ -196,7 +196,7 @@ elif provider == "OSS LLM":
             temperature=temperature,
             max_tokens=max_tokens,
             top_p=top_p,
-            openai_api_base="https://e498-213-197-152-65.ngrok-free.app/v1",
+            openai_api_base="https://ed57-213-197-152-65.ngrok-free.app/v1",
             openai_api_key="dummy_key"
         )
         st.sidebar.caption(f"Initialized OSS LLM")
