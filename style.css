@@ -1,0 +1,31 @@
+div[data-testid="stMetricValue"] {
+    font-size:1.5rem;
+}
+
+.stSidebar {
+    background-color:#ececec;
+}
+
+.stChatMessage {
+    background:transparent!important;
+}
+
+/*div[aria-label="Chat message from assistant"] {
+    background-color: #f0f2f6; 
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ced4da; 
+
+}
+
+div[aria-label="Chat message from user"] {
+    background-color: #ececec; 
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ececec; 
+    text-align: right; 
+    float:right;
+    width:70%!important;
+}*/
